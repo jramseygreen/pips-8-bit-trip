@@ -1,0 +1,58 @@
+<<<<<<< HEAD
+LevelIO - needs implementation.
+Player class
+Level class (Tile remove?)
+Graphics/rendering
+UI functionality
+Profiles
+Saving/Loading games
+Scoreboards
+Actor/Enemies
+GameObject type
+
+MUST BE DONE BY WEDNESDAY NIGHT
+
+///////////////////////////////////////////////////////////////////////////
+
+	!!!!!!!  WHAT PEOPLE ARE DOING (UPDATE THIS IF YOU DO SOMETHING ELSE) !!!!!!
+
+Sam     - LevelIO, FileIO, Rendering, Level, Link uis together once done/add functionality.
+Ben     - Video stuffs
+Nick    - Video stuffs
+Jack    - Enamies/Actors
+Josh    - ?????????????
+Mike    - Make Level files
+Oliver  - Actor/Pathfinding
+=======
+
+
+///////////////////////////////////////////////////////////
+
+		TODO
+
+(DONE) 1.  Player movement
+2.  Enemy movement
+(DONE) 3.  Player collision with cells
+(DONE) 4.  Player inventory 
+(DONE) 5.  Game Items - Key, Token, flippers, fireboots, bomb, ice skates
+(DONE) 6.  Add the above to LevelIO
+(DONE) 7.  Add above to renderer (on top of cells)
+(DONE)8.  Game saving (LevelIO)
+(DONE) 9.  Profile saving/loading
+(DONE)10. High scores UI
+(DONE)11. Create profile UI
+(DONE) 12. Select Level UI (profile)
+(DONE) 13. Select profile UI
+(DONE)14. Error checking for LevelIO
+(DONE) 15. Find textures at higher resolution
+(DONE) 16. Add MessageOfTheDay to start of game
+(DONE) 17. add level restart function
+(DONE)18. Teleporter
+(DONE)19. TokenDoor
+(DONE)20. Goals
+(DONE)21. After last level go title screen
+
+		EXTRAS IF TIME ONLY
+1. Scrolling MessageOfTheDay
+2. Make GUIs look actually good
+>>>>>>> branch 'master' of https://gitlab.com/datasound9087/cs-230-group-project.git

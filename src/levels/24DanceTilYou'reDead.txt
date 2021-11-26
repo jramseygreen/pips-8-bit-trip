@@ -1,0 +1,82 @@
+#Start by holding left
+Map: 17, 17 {
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,1,7,1,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,1,5,1,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,1,1,1,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+}
+TokenDoor: 8,6,28
+Spawn: 8,4
+WallfollowingEnemy: 1,1, east,south
+WallfollowingEnemy: 1,3, east,south
+WallfollowingEnemy: 1,5, east,south
+WallfollowingEnemy: 1,7, east,south
+WallfollowingEnemy: 1,9, east,south
+WallfollowingEnemy: 1,11, east,south
+WallfollowingEnemy: 1,13, east,south
+WallfollowingEnemy: 1,15, north,east
+WallfollowingEnemy: 3,15, north,east
+WallfollowingEnemy: 5,15, north,east
+WallfollowingEnemy: 7,15, north,east
+WallfollowingEnemy: 9,15, north,east
+WallfollowingEnemy: 11,15, north,east
+WallfollowingEnemy: 13,15, north,east
+WallfollowingEnemy: 15,15, west,north
+WallfollowingEnemy: 15,13, west,north
+WallfollowingEnemy: 15,11, west,north
+WallfollowingEnemy: 15,9, west,north
+WallfollowingEnemy: 15,7, west,north
+WallfollowingEnemy: 15,5, west,north
+WallfollowingEnemy: 15,3, west,north
+WallfollowingEnemy: 15,1, south,west
+WallfollowingEnemy: 13,1, south,west
+WallfollowingEnemy: 11,1, south,west
+WallfollowingEnemy: 9,1, south,west
+WallfollowingEnemy: 7,1, south,west
+WallfollowingEnemy: 5,1, south,west
+WallfollowingEnemy: 3,1, south,west
+
+Goal:25AnotherIceLevelHowOriginal.txt
+
+Token: 1,2, 1
+Token: 1,4, 1
+Token: 1,6, 1
+Token: 1,8, 1
+Token: 1,10, 1
+Token: 1,12, 1
+Token: 1,14, 1
+Token: 2,15, 1
+Token: 4,15, 1
+Token: 6,15, 1
+Token: 8,15, 1
+Token: 10,15, 1
+Token: 12,15, 1
+Token: 14,15, 1
+Token: 15,14, 1
+Token: 15,12, 1
+Token: 15,10, 1
+Token: 15,8, 1
+Token: 15,6, 1
+Token: 15,4, 1
+Token: 15,2, 1
+Token: 14,1, 1
+Token: 12,1, 1
+Token: 10,1, 1
+Token: 8,1, 1
+Token: 6,1, 1
+Token: 4,1, 1
+Token: 2,1, 1
+

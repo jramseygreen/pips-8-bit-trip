@@ -1,0 +1,10 @@
+Map: 6, 4 {
+1,1,1,1,1,1
+1,2,2,2,2,1
+1,1,2,1,1,1
+1,1,1,1,1,1
+}
+
+SmartTargetingEnemy: 4, 1
+Goal: 01TestLevel.txt 
+Spawn: 1,1

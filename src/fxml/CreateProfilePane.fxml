@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="960.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs230.pane.CreateProfilePaneController">
+   <top>
+      <Label alignment="BOTTOM_CENTER" text="Create Profile" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="72.0" />
+         </font>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </Label>
+   </top>
+   <bottom>
+      <HBox prefHeight="56.0" prefWidth="640.0" BorderPane.alignment="CENTER">
+         <children>
+            <BorderPane prefHeight="54.0" prefWidth="1280.0">
+               <left>
+                  <Button fx:id="btnBack" mnemonicParsing="false" onAction="#btnBackClicked" prefHeight="153.0" prefWidth="293.0" text="Back" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets bottom="20.0" left="20.0" />
+                     </BorderPane.margin>
+                     <font>
+                        <Font size="72.0" />
+                     </font>
+                  </Button>
+               </left>
+               <right>
+                  <Button fx:id="btnStart" mnemonicParsing="false" onAction="#btnStartClicked" prefHeight="153.0" prefWidth="293.0" text="Start" BorderPane.alignment="CENTER_RIGHT">
+                     <BorderPane.margin>
+                        <Insets bottom="20.0" right="20.0" />
+                     </BorderPane.margin>
+                     <font>
+                        <Font size="72.0" />
+                     </font>
+                  </Button>
+               </right>
+            </BorderPane>
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Mighty hero, what is thy name?">
+               <font>
+                  <Font name="Edwardian Script ITC" size="96.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtFName" alignment="CENTER" promptText="Hero Name">
+               <font>
+                  <Font name="System Italic" size="48.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="60.0" right="60.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

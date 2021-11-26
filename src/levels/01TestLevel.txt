@@ -1,0 +1,87 @@
+Map: 10, 42 {
+1,1,1,1,1,1,1,1,1,1
+1,2,2,2,2,2,2,2,2,1
+1,1,1,1,1,1,1,2,2,1
+1,2,2,2,2,3,2,2,2,1
+1,2,2,2,2,3,2,2,2,1
+1,4,4,1,1,1,1,2,2,1
+1,4,4,4,4,4,1,2,2,1
+1,4,4,4,4,4,1,1,1,1
+1,4,4,4,4,4,1,0,0,0
+1,4,4,4,4,4,1,1,1,1
+1,4,4,4,4,4,2,2,6,1
+1,1,1,1,1,1,1,1,1,1
+1,2,2,2,1,2,2,1,6,1
+1,1,1,1,1,2,2,1,2,1
+1,6,2,2,1,1,1,1,2,1
+1,1,1,2,2,2,2,2,2,1
+1,1,1,1,1,1,1,1,1,1
+1,2,2,1,9,1,9,9,9,1
+1,2,2,1,9,9,9,9,9,1
+1,6,2,2,9,9,9,9,9,1
+1,1,1,1,1,1,9,1,1,1
+0,0,0,0,0,1,9,1,0,0
+0,0,0,0,0,1,9,1,1,0
+1,1,1,1,1,1,9,9,9,1
+1,2,2,2,2,2,1,2,2,1
+1,2,2,2,2,2,2,2,2,1
+1,8,1,8,1,8,1,8,1,1
+1,2,1,2,1,2,1,2,1,0
+1,10,1,1,1,1,1,1,1,1
+1,2,2,2,2,2,2,2,2,1
+1,1,1,1,1,8,1,1,7,1
+0,0,0,0,1,2,1,1,2,1
+1,1,1,1,1,1,1,1,2,1
+1,2,2,9,9,9,9,9,2,1
+1,6,1,1,1,1,1,1,1,1
+1,1,1,0,0,0,0,0,0,0
+1,1,1,1,1,1,1,1,1,1
+1,2,2,2,2,2,2,6,2,1
+1,2,2,2,2,2,2,2,2,1
+1,2,2,2,2,2,2,2,2,1
+1,2,2,2,5,2,2,2,2,1
+1,1,1,1,1,1,1,1,1,1
+
+
+}
+
+Dumbtargetingenemy: 1,37
+Teleporter: 1,34,7,37
+WallfollowingEnemy: 5,13,south,west
+Help: 1,33, The,room,ahead,has,a,dumb,enemy...
+TokenDoor: 8,30,2
+Token: 5,31,1
+Doorkey: 8,29,red
+Coldoor: 5,30,red
+Help:7,29,Tokens,open,token,doors
+Token: 4,29,1
+Help: 1,29, The,floor,crumbled!, No, way, back...
+Help: 3,27, Be,careful,out,there!
+Help: 5,27, These,paths,are,treturous!
+Help: 7,27, Good,luck,hero!
+Spawn: 1,1
+StraightLineEnemy: 1,12, east
+Goal: 03TestLevel.txt 
+Help: 3,14, This, enemy,switches,direction,when,it,hits,an,object
+Help: 2,1, Welcome,hero!,Use,the, arrow, keys, to, move, and, Esc, to, open,the, pause, menu
+Help: 6,3, OH,NO!,Your,way,is,blocked!,find,some,fire,boots,to,progress
+Fireboot:8,6
+Help: 7,6, These,will,help,with,that,pesky,fire
+Flippers: 1,4
+Help: 2,4, These,flippers,make,light,work,of,swimming!
+Help: 7,10, This,will,teleport,you,to,a,linked,teleporter
+Teleporter: 8,10,1,14
+Teleporter: 8,12,1,19
+Help: 8,13, This,enemy,follows,walls
+Help: 2,19, Ice,skates,let,you,slide,on,ice
+Iceskate: 3,19
+Doorkey:1,25,red
+Doorkey:2,25,blue
+Doorkey:3,25,green
+Doorkey:4,25,yellow
+Help: 6,25, Keys,unlock,the,corresponding,door
+Coldoor: 1,26,red
+Coldoor: 3,26,blue
+Coldoor: 5,26,green
+Coldoor: 7,26,yellow
+

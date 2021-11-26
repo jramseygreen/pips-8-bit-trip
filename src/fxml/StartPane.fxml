@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="960.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs230.pane.StartPaneController">
+   <center>
+      <VBox alignment="CENTER" prefHeight="701.0" prefWidth="1280.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Pip's 8 Bit Trip" textFill="#cd891c">
+               <font>
+                  <Font name="System Bold" size="64.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnStartGame" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnStartGameClicked" prefHeight="137.0" prefWidth="493.0" text="Start Game" textAlignment="CENTER">
+               <font>
+                  <Font size="64.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="gameBtn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#gameBtnClicked" prefHeight="137.0" prefWidth="493.0" text="Level Select" textAlignment="CENTER">
+               <font>
+                  <Font size="64.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="exitBtn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#exitBtnClicked" prefHeight="51.0" prefWidth="493.0" text="Exit" textAlignment="CENTER">
+               <font>
+                  <Font size="64.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label focusTraversable="false" text="Message of the Day" textFill="#cd891c">
+               <font>
+                  <Font name="System Bold" size="64.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblMotd" alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="114.0" prefWidth="1158.0" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>

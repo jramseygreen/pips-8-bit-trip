@@ -1,0 +1,51 @@
+///////////////////////////////////////////////////////////////
+
+JavaDoc TODO
+Object:
+	Actor:
+		WallFollowingEnemy	(DONE)
+		StraightLineEnemy	(DONE)
+		DumbTargetingEnemy 	(DONE)
+		Actor				(DONE)
+		Player				(DONE)
+		SmartTargetingEnemy
+	Cell:
+		Cell
+		ColouredDoor
+		Crumble (DONE)
+		Fire
+		Ice (DONE)
+		Teleporter
+		TokenDoor
+		Water
+	Item:
+		GameItem (DONE)
+		Help     (DONE)
+		Key		 (DONE)
+		Token 	 (DONE)
+	GameObject   (DONE)
+Game
+Level (DONE)
+Pane:
+	BaseController
+	CreateProfilePaneController
+	HighScoresPaneController
+	LevelSelectPaneController
+	PaneController
+	SelectUserProfileController
+	StartPaneController
+Util:
+	Colour
+	Direction
+	GameIds
+	HighScoreManager
+	LevelIO
+	Message
+	MessageOfTheDay
+	ProfileManager
+	Renderer
+	Score
+KeyHandler
+Pip8BitTrip
+Profile
+		
